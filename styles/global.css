@@ -1,0 +1,11 @@
+:root {
+  --main-bg-color: rgb(24, 46, 61);
+  --primary-color: rgb(116, 175, 217);
+  --secondary-color: rgb(169, 222, 242);
+}
+
+html,
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
