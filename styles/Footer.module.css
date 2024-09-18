@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(24, 46, 61);
+}
+
+.footerLogo img {
+  height: 30px;
+  margin-bottom: 40px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  color: rgb(116, 175, 217);
+  margin: 0 15px;
+  font-size: 24px;
+  transition: color 0.3s ease; 
+}
+
+.socialIcons a:hover {
+  color: rgb(169, 222, 242);
+}

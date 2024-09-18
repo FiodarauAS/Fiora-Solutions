@@ -1,0 +1,43 @@
+.headerLogo {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.headerLogo img {
+  height: 175px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(24, 46, 61);
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.nav ul li {
+  margin-left: 30px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(116, 175, 217);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav ul li a:hover {
+  color: rgb(169, 222, 242);
+}
