@@ -105,8 +105,8 @@ export default function Home() {
       <Layout>
         <div className="mainContainer">
           <div>
-            <h2>We deliver Zalupa <br/>Programming on Time!</h2>
-            <p className="firstParagraph">Fiora Solutions is a youthful and trustworthy company <br/> That provides reliable, tailored software development <br/> Services within the context of customer needs.</p>
+            <h2>We deliver Zalupa <br />Programming on Time!</h2>
+            <p className="firstParagraph">Fiora Solutions is a youthful and trustworthy company <br /> That provides reliable, tailored software development <br /> Services within the context of customer needs.</p>
             <Link href="/contact">
               <button className="contactButton">Get in touch</button>
             </Link>
@@ -116,11 +116,11 @@ export default function Home() {
         <div className="centered-div">
           <h3>We Truly Care About Your Business Success</h3>
           <p className="secondParagraph">
-            At Fiora Solutions, our focus is on delivering value and enhancing your business. <br/> We are passionate about our work and genuinely care about the results of every project. <br/> Our mission is to support you in moving forward with confidence, no matter the context. <br/>  We understand that each business has unique challenges, and we tailor our solutions to meet your specific needs. <br/>  Together, we can navigate the complexities of your industry and achieve lasting success.
+            At Fiora Solutions, our focus is on delivering value and enhancing your business. <br /> We are passionate about our work and genuinely care about the results of every project. <br /> Our mission is to support you in moving forward with confidence, no matter the context. <br />  We understand that each business has unique challenges, and we tailor our solutions to meet your specific needs. <br />  Together, we can navigate the complexities of your industry and achieve lasting success.
           </p>
           <Link href="/about">
-              <button className="aboutUsButton">Learn more about us</button>
-            </Link>
+            <button className="aboutUsButton">Learn more about us</button>
+          </Link>
         </div>
       </Layout>
     </div>

@@ -10,11 +10,11 @@ export default function Layout({ children }) {
 
       <main id="primary" className={styles.main}>
 
-          <Navbar />
+        <Navbar />
 
-          <div className={styles.contentContainer}>
-            { children }
-          </div>
+        <div className={styles.contentContainer}>
+          { children }
+        </div>
       </main>
 
       <Footer />

@@ -7,9 +7,9 @@ import styles from './Header.module.css';
 const Header = () => {
   return (
     <header className={styles.header}>
-        <div className={styles.headerLogo}>
-            <img src="../images/logo-with-text-transparent-nobuffer.png" alt="Fiora Logo" />
-        </div>
+      <div className={styles.headerLogo}>
+        <img src="../images/logo-with-text-transparent-nobuffer.png" alt="Fiora Logo" />
+      </div>
     </header>
   );
 };
