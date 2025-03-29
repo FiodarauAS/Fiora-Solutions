@@ -1,6 +1,6 @@
-import Navbar from '../components/Navbar';
+import Navbar from '../Navbar/Navbar';
 import React from "react";
-import styles from '../styles/Header.module.css';
+import styles from './Header.module.css';
 
 //import styles from '../styles/Navbar.module.css';
 

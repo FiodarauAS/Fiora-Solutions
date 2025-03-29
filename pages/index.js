@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '../components/Layout/Layout';
 import CosmonautSvg from '../public/svgs/Cosmonaut';
 import Link from 'next/link';
 

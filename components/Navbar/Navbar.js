@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from "react";
-import styles from '../styles/Navbar.module.css';
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (
@@ -9,16 +9,16 @@ const Navbar = () => {
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" />
         <ul className={styles.ul}>
             <li>
-                <Link href="/" to="first" style={{ textDecoration: 'none' }}>
+                <Link href="/public" to="first" style={{ textDecoration: 'none' }}>
                     <p>Home</p>
                 </Link>
             </li>
-            <li> 
+            <li>
                 <Link href="/services" to="first" style={{ textDecoration: 'none' }}>
                     <p>Services</p>
                 </Link>
             </li>
-            <li> 
+            <li>
                 <Link href="/about" to="first" style={{ textDecoration: 'none' }}>
                     <p>About</p>
                 </Link>

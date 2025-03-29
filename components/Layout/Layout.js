@@ -1,7 +1,7 @@
-import Header from '../components/Header';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import styles from '../styles/Layout.module.css';
+import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+import styles from './Layout.module.css';
 
 export default function Layout({ children }) {
   return (
@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <Header />
 
       <main id="primary" className={styles.main}>
-        
+
           <Navbar />
 
           <div className={styles.contentContainer}>

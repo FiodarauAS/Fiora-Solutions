@@ -1,8 +1,8 @@
-import styles from "../styles/Services.module.css";
-import CircleDots from '../public/svgs/CircleDots';
-import CircleEmpty from '../public/svgs/CircleEmpty';
-import CircleFilled from '../public/svgs/CircleFilled';
-import CircleStripes from '../public/svgs/CircleStripes';
+import styles from "./Services.module.css";
+import CircleDots from '../../public/svgs/CircleDots';
+import CircleEmpty from '../../public/svgs/CircleEmpty';
+import CircleFilled from '../../public/svgs/CircleFilled';
+import CircleStripes from '../../public/svgs/CircleStripes';
 import Link from 'next/link';
 
 export default function Services() {
