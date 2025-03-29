@@ -1,10 +1,10 @@
 import Layout from '../components/Layout';
-import Contactform from '../components/Contactform';
+import Services from '../components/Services';
 
 export default function Contact() {
   return (
     <Layout>
-      <Contactform />
+      <Services />
     </Layout>
   );
 }

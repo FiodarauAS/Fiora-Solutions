@@ -8,24 +8,29 @@ const Navbar = () => {
       <div>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" />
         <ul className={styles.ul}>
-            <li className={styles.li}>
+            <li>
                 <Link href="/" to="first" style={{ textDecoration: 'none' }}>
-                    <p className={styles.p}>Home</p>
+                    <p>Home</p>
                 </Link>
             </li>
-            <li className={styles.li}> 
-                <Link href="/pages/services" to="first" style={{ textDecoration: 'none' }}>
-                    <p className={styles.p}>Services</p>
+            <li> 
+                <Link href="/services" to="first" style={{ textDecoration: 'none' }}>
+                    <p>Services</p>
                 </Link>
             </li>
-            <li className={styles.li}> 
+            <li> 
                 <Link href="/about" to="first" style={{ textDecoration: 'none' }}>
-                    <p className={styles.p}>About</p>
+                    <p>About</p>
                 </Link>
             </li>
-            <li className={styles.li}>
+            <li>
                 <Link href="/contact" to="first" style={{ textDecoration: 'none' }}>
-                    <p className={styles.p}>Contact</p>
+                    <p>Contact</p>
+                </Link>
+            </li>
+            <li>
+                <Link href="/svgs" to="first" style={{ textDecoration: 'none' }}>
+                    <p>Svgs</p>
                 </Link>
             </li>
         </ul>

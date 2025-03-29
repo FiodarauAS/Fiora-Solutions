@@ -8,11 +8,11 @@
   margin-top: 30px;
 }
 
-.li {
+.ul li {
   margin-left: 30px;
 }
 
-.p {
+.ul li p {
   text-decoration: none;
   color: rgb(116, 175, 217);
   font-size: 24px;
@@ -20,6 +20,6 @@
   font-family: 'Oswald', sans-serif;
 }
 
-.p:hover {
+.ul li p:hover {
   color: rgb(169, 222, 242);
 }
