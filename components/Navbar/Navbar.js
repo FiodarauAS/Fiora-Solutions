@@ -6,30 +6,29 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" />
         <ul className={styles.ul}>
           <li>
-            <Link href="/public" to="first" style={{ textDecoration: 'none' }}>
+            <Link href="/">
               <p>Home</p>
             </Link>
           </li>
           <li>
-            <Link href="/services" to="first" style={{ textDecoration: 'none' }}>
+            <Link href="/services">
               <p>Services</p>
             </Link>
           </li>
           <li>
-            <Link href="/about" to="first" style={{ textDecoration: 'none' }}>
+            <Link href="/about">
               <p>About</p>
             </Link>
           </li>
           <li>
-            <Link href="/contact" to="first" style={{ textDecoration: 'none' }}>
+            <Link href="/contact">
               <p>Contact</p>
             </Link>
           </li>
           <li>
-            <Link href="/svgs" to="first" style={{ textDecoration: 'none' }}>
+            <Link href="/svgs">
               <p>Svgs</p>
             </Link>
           </li>

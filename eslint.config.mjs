@@ -13,7 +13,7 @@ const compat = new FlatCompat({
 });
 
 export default defineConfig([{
-  extends: compat.extends("next/core-web-vitals", "plugin:react/recommended"),
+  extends: compat.extends("next/core-web-vitals"),
 
   settings: {
     react: {
