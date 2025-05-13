@@ -17,20 +17,32 @@ export default function ContactForm() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log("Form data submitted: ", formData);
+    const res = await fetch("https://formspree.io/f/mblojang", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+  
+    if (res.ok) {
+      alert("Message sent!");
+      setFormData({ firstName: "", lastName: "", email: "", phone: "", message: "" });
+    } else {
+      alert("Failed to send message.");
+    }
   };
 
   return (
     <div className={styles.contactContainer}>
         <h2 className={styles.divTitle}>Get in Touch</h2>
-        <div className={styles.socialIcons}>
-          <a href="https://linkedin.com" target="_blank" class="icon-link"><i class="fab fa-linkedin"></i></a>
-          <a href="https://facebook.com" target="_blank" class="icon-link"><i class="fab fa-facebook"></i></a>
-          <a href="https://instagram.com" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
-        </div>
+        {/*<div className={styles.socialIcons}>
+          <a href="https://linkedin.com" target="_blank" className="icon-link"><i className="fab fa-linkedin"></i></a>
+          <a href="https://facebook.com" target="_blank" className="icon-link"><i className="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank" className="icon-link"><i className="fab fa-instagram"></i></a>
+        </div>*/}
         <div className={styles.contactFormContainer}>
             <h2 className={styles.formTitle}>Contact Us</h2>
             <form onSubmit={handleSubmit} className={styles.contactForm}>
