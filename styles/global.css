@@ -6,7 +6,17 @@
 
 html,
 body {
+  height: 100%;
   margin: 0px;
   padding: 0px;
   font-family: "Oswald", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#__next {
+  background-color: rgb(24, 46, 61);
+}
+
+section {
+  scroll-margin-top: 400px;
 }

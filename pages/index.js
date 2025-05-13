@@ -1,11 +1,12 @@
 import Layout from '../components/Layout';
 import CosmonautSvg from '../public/svgs/Cosmonaut';
-import Link from 'next/link';
+import Services from '../components/Services';
+import ContactForm from '../components/ContactForm';
 
 export default function Home() {
   return (
     <div>
-      <style jsx global>{`
+            <style jsx global>{`
       body {
         margin: 0px;
         padding: 0px;
@@ -103,25 +104,38 @@ export default function Home() {
       }
     `}</style>
       <Layout>
-        <div className="mainContainer">
+        <section id="home" className="mainContainer">
           <div>
-            <h2>We deliver Zalupa <br/>Programming on Time!</h2>
-            <p className="firstParagraph">Fiora Solutions is a youthful and trustworthy company <br/> That provides reliable, tailored software development <br/> Services within the context of customer needs.</p>
-            <Link href="/contact">
-              <button className="contactButton">Get in touch</button>
-            </Link>
+            <h2>We deliver Zalupa <br />Programming on Time!</h2>
+            <p className="firstParagraph">
+              Fiora Solutions is a youthful and trustworthy company <br />
+              That provides reliable, tailored software development <br />
+              Services within the context of customer needs. <br />
+              We are passionate about our work and genuinely care <br />
+              About the results of every project. <br />
+            </p>
           </div>
-          <CosmonautSvg></CosmonautSvg>
-        </div>
-        <div className="centered-div">
-          <h3>We Truly Care About Your Business Success</h3>
+          <CosmonautSvg />
+        </section>
+
+        <section className="centered-div">
           <p className="secondParagraph">
-            At Fiora Solutions, our focus is on delivering value and enhancing your business. <br/> We are passionate about our work and genuinely care about the results of every project. <br/> Our mission is to support you in moving forward with confidence, no matter the context. <br/>  We understand that each business has unique challenges, and we tailor our solutions to meet your specific needs. <br/>  Together, we can navigate the complexities of your industry and achieve lasting success.
+
           </p>
-          <Link href="/about">
-              <button className="aboutUsButton">Learn more about us</button>
-            </Link>
-        </div>
+        </section>
+
+        <section id="services">
+          <Services />
+        </section>
+
+        <section  id="about">
+          <h1>About Us</h1>
+          <p>This is the about page of the SPA.</p>
+        </section>
+
+        <section id="contact">
+          <ContactForm />
+        </section>
       </Layout>
     </div>
   );

@@ -5,14 +5,24 @@
   font-size: 100px;
   color: var(--primary-color);
   height: 100%;
-  padding: 20px 50px;
   width: 100%;
 }
 
+.fixedTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--main-bg-color);
+}
+
 .main {
-  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(24, 46, 61);
+  background-color: var(--main-bg-color);
+  min-height: 85vh;
+  padding-top: 400px;
+  margin: 0;
 }
