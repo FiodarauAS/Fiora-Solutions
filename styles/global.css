@@ -20,3 +20,18 @@ body {
 section {
   scroll-margin-top: 400px;
 }
+
+*,*::before,*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#__next {
+  width: 100%;
+}
+

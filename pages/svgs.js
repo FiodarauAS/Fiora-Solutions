@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '../components/Layout/Layout';
 import CircleDots from '../public/svgs/CircleDots';
 import CircleEmpty from '../public/svgs/CircleEmpty';
 import CircleFilled from '../public/svgs/CircleFilled';
