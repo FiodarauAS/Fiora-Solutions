@@ -1,37 +1,23 @@
-import Link from 'next/link';
-import React from "react";
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (
     <>
       <div>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" />
         <ul className={styles.ul}>
-          <li>
-            <Link href="/">
-              <p>Home</p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/services">
-              <p>Services</p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <p>About</p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">
-              <p>Contact</p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/svgs">
-              <p>Svgs</p>
-            </Link>
-          </li>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#services" >Services</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
       </div>
     </>

@@ -1,7 +1,7 @@
 import Layout from '../components/Layout/Layout';
 import CosmonautSvg from '../public/svgs/Cosmonaut';
-import Services from '../components/Services';
-import ContactForm from '../components/ContactForm';
+import Services from '../components/Services/Services';
+import ContactForm from '../components/ContactForm/ContactForm';
 
 export default function Home() {
   return (
@@ -107,7 +107,6 @@ export default function Home() {
         <section id="home" className="mainContainer">
           <div>
             <h2>We deliver Zalupa <br />Programming on Time!</h2>
-<<<<<<< HEAD
             <p className="firstParagraph">
               Fiora Solutions is a youthful and trustworthy company <br />
               That provides reliable, tailored software development <br />
@@ -115,19 +114,12 @@ export default function Home() {
               We are passionate about our work and genuinely care <br />
               About the results of every project. <br />
             </p>
-=======
-            <p className="firstParagraph">Fiora Solutions is a youthful and trustworthy company <br /> That provides reliable, tailored software development <br /> Services within the context of customer needs.</p>
-            <Link href="/contact">
-              <button className="contactButton">Get in touch</button>
-            </Link>
->>>>>>> 95740dc1e17f2bd784e73605ca3ee6fd5f9b1caa
           </div>
           <CosmonautSvg />
         </section>
 
         <section className="centered-div">
           <p className="secondParagraph">
-<<<<<<< HEAD
 
           </p>
         </section>
@@ -144,14 +136,6 @@ export default function Home() {
         <section id="contact">
           <ContactForm />
         </section>
-=======
-            At Fiora Solutions, our focus is on delivering value and enhancing your business. <br /> We are passionate about our work and genuinely care about the results of every project. <br /> Our mission is to support you in moving forward with confidence, no matter the context. <br />  We understand that each business has unique challenges, and we tailor our solutions to meet your specific needs. <br />  Together, we can navigate the complexities of your industry and achieve lasting success.
-          </p>
-          <Link href="/about">
-            <button className="aboutUsButton">Learn more about us</button>
-          </Link>
-        </div>
->>>>>>> 95740dc1e17f2bd784e73605ca3ee6fd5f9b1caa
       </Layout>
     </div>
   );
